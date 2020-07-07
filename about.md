@@ -1,15 +1,18 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
+published: true
 ---
 
-Some information about you!
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### Hello, world!  I'm Adam,
+
+a pharmacist currently transforming into a data scientist.  I'm interested in using my healthcare background and medical knowledge and combining it with proficiencies in Python and tableau in order to come up with some insightful, intuitive, and hopefully useful thoughts in the world of data. 
+
+I'd love to work with you on a project.  Send me an email, and let's connect!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[adam.agovino@gmai.com](mailto:adam.agovino@gmail.com.com)
