@@ -3,9 +3,25 @@ published: true
 ---
 ## Do NBA GMs mostly fail when spending capital on new talent? 
 
-How many times have you read about a transaction that your favorite team just made, or saw a Woj bomb and thought "Man, if only I ran the team!"
+### Hello
 
-Think their job is easy? I decided to take a look at the numbers and dissect contract data in order to compare it to a player's performance. 
+How many times have you read about a transaction that your favorite team just made, or saw a Woj bomb and thought "Man, if only I ran the team!"  Maybe you've had the feeling that a talented team fell on some bad luck or that a particular team was full of overpaid players.  How a GM pays for talent is behing every team's success or lack thereof.  
+
+Think their job is easy? I decided to take a look at the numbers and dissect contract data in order to compare it to a player's performance, in order to find out quantitatively which GMs were making "smart" moves and which ones fans could be justified in calling for their jobs. 
+
+I decided to look back starting with the 2011-12 season, as that season was the start of a new CBA which had some significant contractual changes.  
+
+First, I looked for a table that had player's advanced stats, draft position, and contract info all in once place.  This proved impossible (surprisingly, given the data world's passion for all things roundball-related), so I decided to make gather and wrangle my own data.  Using this, the plan was to take into consideration the exact dollar amount spent (not cap hit) by each GM for each player and compare that to their production.  This needed to be further modified based on if a player was waived, traded, or even amnestied.  
+
+I gathered and scraped data from both basketballreference.com and spotrac.com.  These both involved quite amount of cleaning (BR had inconsistent salaries and spotrac had inconsistent player cash take-homes prior to 2015-16, just to name a few).  Traded players also required cash adjustments. A minor note: player performance (and thus GM performance) was based on a player's _cash_ take home (what a GM spent on a player) and not necessarily their _cap hit_, which is the traditional measure of a team's spend.  A player traded mid season would not have a cap hit for their initial team, but obviously they accumulate stats and receive a salary - which for purposes of this analysis, should be the basis of their value.  Also noted in the scrape was any outcome/note for a particular contract - this included ten-day, waived, two-way, and amnestied contracts. 
+
+Side note: I learned a hard-fought lesson with this project, the one thing that data experts always warn about: 80% of your time is spent filtering out crap data and wrangling it together, and that supposed sexiness of 'big data' is immediately sobered by the reality of the data wrangle.  Players had different spellings depending on the sources (some had nicknames ie Mo Bamba is Mohamed Bamba depending on who you ask, others had "Jr" or "II," etc), draft years were wrong or appropriated to older players with the same name, etc.  However, despite the tedious nature of data cleaning, it did allow me to cultivate and expertise on the subject matter inside and out.   
+
+I began by combining the advanced stats from basketball reference with the contract data (both the cap hit and the cash expenditure) scraped from spotrac (in which the cash expenditure data needed to be adjusted for trades prior to 2016).  I then attached the GM associated with each player's season to each row.  Also calculated was the season number for each player year in order to see trends related to player age and season number (a topic I'll dive into during another post).  Finally, seasons were condensed by player and team, i.e. a player with three ten-day contracts would have all three combined into one row in order to align with their one row of advanced stats.
+
+The main purpose of this analysis was to find the 'value' that each player brought during a particular season, in order to find out if the money spent of them was justified.  Were they overvalued or undervalued?  
+
+
 
     cols = ['Player','Year','Team','Pos','Cap Hit','Cap Amend','Perc Cap','Cash','Cash Amend','Age','G','WS','VORP','PER','Signing Note','Cap Notes','Cash Notes','GM Name','Draft Year','Draft Pick','First Year']
 
@@ -95,7 +111,13 @@ Think their job is easy? I decided to take a look at the numbers and dissect con
     print(datetime.now() - startTime)
 
     nba2.head()
+    
+Please contact me if you would like access to the .csv I put together with this data
+    
+REFERENCE MATERIAL:
 
-
+[Basketball Reference](basketballreference.com)
+[Larry Coon's Salary Cap FAQ](http://www.cbafaq.com/salarycap.htm)
+[Spotrac](spotrac.com)
 
 
