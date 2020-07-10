@@ -27,7 +27,7 @@ Player Net Value = Cash expenditure - ((Average $ spent per win share, league-wi
 
 Here is the code: 
 
-    # Creating a dictionary, based on year, for dollars spent per WS
+    # Creating a dictionary, based on year, for dollars spent per win share
 
     years = list(range(2012, 2021))
 
@@ -37,13 +37,15 @@ Here is the code:
         filt_nba = nba[nba['Year']==year]
         dollars_per_WS = ((filt_nba['Cash Amend'].sum() / filt_nba['WS'].sum()))
         WS_dict[year] = dollars_per_WS
-
-    www = []
+    
+    #determining what a player should be worth based on win shares
+    
+    player_win_share_worth = []
     for i,row in nba.iterrows():
         ww = row['WS'] * WS_dict[row['Year']]
-        www.append(ww)
+        player_win_share_worth.append(ww)
 
-    nba['WS Worth'] = www
+    nba['WS Worth'] = player_win_share_worth
 
     nba['WS Worth'] = nba['WS Worth'].fillna(0)
 
