@@ -15,11 +15,39 @@ First, I looked for a table that had player's advanced stats, draft position, an
 
 I gathered and scraped data from both basketballreference.com and spotrac.com.  These both involved quite amount of cleaning (BR had inconsistent salaries and spotrac had inconsistent player cash take-homes prior to 2015-16, just to name a few).  Traded players also required cash adjustments. A minor note: player performance (and thus GM performance) was based on a player's _cash_ take home (what a GM spent on a player) and not necessarily their _cap hit_, which is the traditional measure of a team's spend.  A player traded mid season would not have a cap hit for their initial team, but obviously they accumulate stats and receive a salary - which for purposes of this analysis, should be the basis of their value.  Also noted in the scrape was any outcome/note for a particular contract - this included ten-day, waived, two-way, and amnestied contracts. 
 
-Side note: I learned a hard-fought lesson with this project, the one thing that data experts always warn about: 80% of your time is spent filtering out crap data and wrangling it together, and that supposed sexiness of 'big data' is immediately sobered by the reality of the data wrangle.  Players had different spellings depending on the sources (some had nicknames ie Mo Bamba is Mohamed Bamba depending on who you ask, others had "Jr" or "II," etc), draft years were wrong or appropriated to older players with the same name, etc.  However, despite the tedious nature of data cleaning, it did allow me to cultivate and expertise on the subject matter inside and out.   
+Side note: I learned a hard-fought lesson with this project, the one thing that data experts always warn about: 80% of your time is spent filtering out crap data and wrangling it together, and that supposed sexiness of 'big data' is immediately sobered by the reality of the data wrangle.  Players had different spellings depending on the sources (some had nicknames ie Mo Bamba is Mohamed Bamba depending on who you ask, others had "Jr" or "II," etc), draft years were wrong or appropriated to older players with the same name, etc.  However, despite the tedious nature of data cleaning, it did allow me to cultivate and gain expertise on the subject matter.   
 
 I began by combining the advanced stats from basketball reference with the contract data (both the cap hit and the cash expenditure) scraped from spotrac (in which the cash expenditure data needed to be adjusted for trades prior to 2016).  I then attached the GM associated with each player's season to each row.  Also calculated was the season number for each player year in order to see trends related to player age and season number (a topic I'll dive into during another post).  Finally, seasons were condensed by player and team, i.e. a player with three ten-day contracts would have all three combined into one row in order to align with their one row of advanced stats.
 
 The main purpose of this analysis was to find the 'value' that each player brought during a particular season, in order to find out if the money spent of them was justified.  Were they overvalued or undervalued?  
+
+The calculation for that was simple:
+
+Player Net Value = Cash expenditure - ((Average $ spent per win share, league-wide) * win shares)
+
+Here is the code: 
+
+    # Creating a dictionary, based on year, for dollars spent per WS
+
+    years = list(range(2012, 2021))
+
+    WS_dict = {}
+
+    for year in years:
+        filt_nba = nba[nba['Year']==year]
+        dollars_per_WS = ((filt_nba['Cash Amend'].sum() / filt_nba['WS'].sum()))
+        WS_dict[year] = dollars_per_WS
+
+    www = []
+    for i,row in nba.iterrows():
+        ww = row['WS'] * WS_dict[row['Year']]
+        www.append(ww)
+
+    nba['WS Worth'] = www
+
+    nba['WS Worth'] = nba['WS Worth'].fillna(0)
+
+    nba['Net Value'] = nba['WS Worth'] - nba['Cash Amend']
 
 
 
