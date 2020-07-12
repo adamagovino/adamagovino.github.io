@@ -6,7 +6,7 @@ published: true
 
 How many times have you read about a transaction that your favorite team just made, or saw a Woj bomb and thought "Man, if only I ran the team!"  Maybe you've had the feeling that a talented team fell on some bad luck or that a particular team was full of overpaid players.  How a GM pays for talent is behing every team's success or lack thereof.  
 
-Think their job is easy? I decided to take a look at the numbers and dissect contract data in order to compare it to a player's performance, in order to find out quantitatively which GMs were making "smart" moves and which ones fans could be justified in calling for their jobs.
+Think their job is easy? I decided to take a look at the numbers and dissect contract data in order to compare it to a player's performance, in order to find out quantitatively which GMs were making "smart" moves and which ones fans could be justified in calling for their jobs.  This will be the first post in a series dedicated to the guys who build, modify, bring greatness to, and ultimately doom our favorite teams.  
 
 The two main data points that I hoped to look at here was 1) each team's yearly cash expenditure on every player they employed, and 2) the stats that those players accumulated while receiving that cash.  
 
@@ -140,8 +140,15 @@ Here is the code:
     nba['WS Worth'] = nba['WS Worth'].fillna(0)
 
     nba['Net Value'] = nba['WS Worth'] - nba['Cash Amend']
+    
+Using this win-share based Net Value, there are several topics that I plan on analyzing and sharing with you:
 
-Here is what the final table looked like: 
+- Rating GMs based on contracts given out, trades, and drafts
+- Determining the best off seasons, trades, transactions, and contracts given out by GMs
+- Trends among players based on age, season #, and games/minutes played
+
+
+
 
 
  
@@ -154,5 +161,3 @@ REFERENCE MATERIAL:
 [Larry Coon's Salary Cap FAQ](http://www.cbafaq.com/salarycap.htm)
 
 [Spotrac](spotrac.com)
-
-
