@@ -34,33 +34,33 @@ Looking at this, it seems as though seasons 1-4 for a player trend upward in ter
 
 The NBA is a soft-cap league, and other than veteran minimums and max contracts, GMs are really free to spend what they would like on any free agent.  Therefore, post-year 4 salaries are based on market value within the league.  
 
-Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upon a **league** - wide "win share-worth" (aka the league-wide mean of how much a GM pays per win share).  This number changes each year (as new contracts are given out and as the salary cap changes) - they are as follows:
+Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upon a __league__ -  wide  "win share-worth" (aka the league-wide mean of how much a GM pays per win share).  This number changes each year (as new contracts are given out and as the salary cap changes) - they are as follows:
 
-2018-19: 2892980.5323072015
+2018-19: $2,892,980.5323072015
 
-2017-18: 2672176.2756527993
+2017-18: $2,672,176.2756527993
 
-2016-17: 2374298.4274322162
+2016-17: $2,374,298.4274322162
 
-2015-16: 1920468.3199235233
+2015-16: $1,920,468.3199235233
 
-2014-15: 1668303.8220311997
+2014-15: $1,668,303.8220311997
 
-2013-14: 1586231.6678608393
+2013-14: $1,586,231.6678608393
 
-2012-13: 1497732.327359618
+2012-13: $1,497,732.327359618
 
-2011-12: 1478518.6007905134
+2011-12: $1,478,518.6007905134
 
 However, looking at these season-based quartiles, it may not be accurate to include the rookie-scale players in this mean, as these are fixed contracts that are pre-determined.  Let's look at what these numbers come out to if we exclude rookies:
 
-2018-19: 3626033.342042756
-2017-18: 3366121.8944471045
-2016-17: 2908138.2932804488
-2015-16: 2246251.8696787367
-2014-15: 2009908.4301636228
-2013-14: 1881308.8099097009
-2012-13: 1787643.2533803645
-2011-12: 1862600.726403454
+2018-19: $3,626,033.342042756
+2017-18: $3,366,121.8944471045
+2016-17: $2,908,138.2932804488
+2015-16: $2,246,251.8696787367
+2014-15: $2,009,908.4301636228
+2013-14: $1,881,308.8099097009
+2012-13: $1,787,643.2533803645
+2011-12: $1,862,600.726403454
 
-Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries - lets see if this changes the outlook of net value once we adjust for this:
+Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries - lets see how this changes the outlook of net value once we adjust for this:
