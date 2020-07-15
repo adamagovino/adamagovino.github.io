@@ -3,6 +3,8 @@ published: true
 ---
 ![]({{site.baseurl}}/https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1pPDwi6zv_R26-FSx3OQFNishFvyl3KGcug&usqp=CAU)
 
+
+
 I wanted to take a peak at contracts moving forward through seasons as NBA players transition from rookie to seasoned vets.  
 
 Here is my viz looking at [win share-based net value](https://adamagovino.github.io/Net-Value/) based on season number:
@@ -32,15 +34,22 @@ Looking at this, it seems as though seasons 1-4 for a player trend upward in ter
 
 The NBA is a soft-cap league, and other than veteran minimums and max contracts, GMs are really free to spend what they would like on any free agent.  Therefore, post-year 4 salaries are based on market value within the league.  
 
-Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upon a ****league**** - wide "win share-worth" (aka the league-wide mean of how much a GM pays per win share).  This number changes each year (as new contracts are given out and as the salary cap changes) - they are as follows:
+Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upon a **league** - wide "win share-worth" (aka the league-wide mean of how much a GM pays per win share).  This number changes each year (as new contracts are given out and as the salary cap changes) - they are as follows:
 
 2018-19: 2892980.5323072015
+
 2017-18: 2672176.2756527993
+
 2016-17: 2374298.4274322162
+
 2015-16: 1920468.3199235233
+
 2014-15: 1668303.8220311997
+
 2013-14: 1586231.6678608393
+
 2012-13: 1497732.327359618
+
 2011-12: 1478518.6007905134
 
 However, looking at these season-based quartiles, it may not be accurate to include the rookie-scale players in this mean, as these are fixed contracts that are pre-determined.  Let's look at what these numbers come out to if we exclude rookies:
@@ -54,4 +63,4 @@ However, looking at these season-based quartiles, it may not be accurate to incl
 2012-13: 1787643.2533803645
 2011-12: 1862600.726403454
 
-Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries.
+Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries - lets see if this changes the outlook of net value once we adjust for this:
