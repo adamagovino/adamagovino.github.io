@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## The NBA Contract Market Should Correct Itself as Players Age, Right? Right?
 
@@ -35,6 +35,4 @@ However, looking at these season-based quartiles, it may not be accurate to incl
 2012-13: 1787643.2533803645
 2011-12: 1862600.726403454
 
-Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries. 
-
-
+Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries.
