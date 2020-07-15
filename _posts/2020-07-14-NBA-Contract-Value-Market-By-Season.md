@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-## The NBA Contract Market Should Correct Itself as Players Age, Right? Right?
+![]({{site.baseurl}}/https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1pPDwi6zv_R26-FSx3OQFNishFvyl3KGcug&usqp=CAU)
 
 I wanted to take a peak at contracts moving forward through seasons as NBA players transition from rookie to seasoned vets.  
 
