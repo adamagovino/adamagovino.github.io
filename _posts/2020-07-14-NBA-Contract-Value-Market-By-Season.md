@@ -38,32 +38,25 @@ The NBA is a soft-cap league, and other than veteran minimums and max contracts,
 
 Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upon a __league__ -  wide  "win share-worth" (aka the league-wide mean of how much a GM pays per win share).  This number changes each year (as new contracts are given out and as the salary cap changes) - they are as follows:
 
-2018-19: $2,892,980.5323072015
-
-2017-18: $2,672,176.2756527993
-
-2016-17: $2,374,298.4274322162
-
-2015-16: $1,920,468.3199235233
-
-2014-15: $1,668,303.8220311997
-
-2013-14: $1,586,231.6678608393
-
-2012-13: $1,497,732.327359618
-
-2011-12: $1,478,518.6007905134
+2018-19: $2,892,980.5323072015<br>
+2017-18: $2,672,176.2756527993<br>
+2016-17: $2,374,298.4274322162<br>
+2015-16: $1,920,468.3199235233<br>
+2014-15: $1,668,303.8220311997<br>
+2013-14: $1,586,231.6678608393<br>
+2012-13: $1,497,732.327359618<br>
+2011-12: $1,478,518.6007905134<br><br>
 
 However, looking at these season-based quartiles, it may not be accurate to include the rookie-scale players in this mean, as these are fixed contracts that are pre-determined.  Let's look at what these numbers come out to if we exclude rookies:
 
 2018-19: $3,626,033.342042756<br>
-2017-18: $3,366,121.8944471045
-2016-17: $2,908,138.2932804488
-2015-16: $2,246,251.8696787367
-2014-15: $2,009,908.4301636228
-2013-14: $1,881,308.8099097009
-2012-13: $1,787,643.2533803645
-2011-12: $1,862,600.726403454
+2017-18: $3,366,121.8944471045<br>
+2016-17: $2,908,138.2932804488<br>
+2015-16: $2,246,251.8696787367<br>
+2014-15: $2,009,908.4301636228<br>
+2013-14: $1,881,308.8099097009<br>
+2012-13: $1,787,643.2533803645<br>
+2011-12: $1,862,600.726403454<br><br>
 
 Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries - lets see how this changes the outlook of net value once we adjust for this:
 
