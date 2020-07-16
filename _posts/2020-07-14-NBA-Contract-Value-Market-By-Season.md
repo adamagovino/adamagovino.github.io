@@ -3,6 +3,8 @@ published: true
 ---
 ![]({{site.baseurl}}/https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1pPDwi6zv_R26-FSx3OQFNishFvyl3KGcug&usqp=CAU)
 
+![]({{site.baseurl}}/https://www.google.com/imgres?imgurl=https%3A%2F%2Ffadeawayworld.net%2Fwp-content%2Fuploads%2F2019%2F11%2FTop-10-Cheapest-NBA-Contracts-For-The-2019-20-NBA-Season.jpg&imgrefurl=https%3A%2F%2Ffadeawayworld.net%2F2019%2F11%2F13%2Ftop-10-cheapest-nba-contracts-for-the-2019-20-season%2F&tbnid=URaj9antCiRQKM&vet=12ahUKEwjF8NTVu8_qAhWCGlMKHUNcCDQQMygqegUIARCbAg..i&docid=pOc0ErWPw9_npM&w=1024&h=576&q=nba%20contracts&ved=2ahUKEwjF8NTVu8_qAhWCGlMKHUNcCDQQMygqegUIARCbAg)
+
 
 
 I wanted to take a peak at contracts moving forward through seasons as NBA players transition from rookie to seasoned vets.  
@@ -64,3 +66,26 @@ However, looking at these season-based quartiles, it may not be accurate to incl
 2011-12: $1,862,600.726403454
 
 Just as you probably would have guessed, win shares become more expensive once you exclude the limit of rookie salaries - lets see how this changes the outlook of net value once we adjust for this:
+
+<div class='tableauPlaceholder' id='viz1594908080653' style='position: relative'><noscript><a href='#'>
+  <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NB&#47;NBA2_1&#47;Sheet15&#47;1_rss.png' style='border: none' />
+  </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='embed_code_version' value='3' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='NBA2_1&#47;Sheet15' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NB&#47;NBA2_1&#47;Sheet15&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en' />
+    <param name='filter' value='publish=yes' />
+  </object>
+</div>                
+<script type='text/javascript'>                    var divElement = document.getElementById('viz1594908080653');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
