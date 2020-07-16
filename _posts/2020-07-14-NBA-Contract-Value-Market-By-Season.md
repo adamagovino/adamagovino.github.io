@@ -83,6 +83,6 @@ Just as you probably would have guessed, win shares become more expensive once y
 </div>                
 <script type='text/javascript'>                    var divElement = document.getElementById('viz1594908080653');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-It's easy to see how the net value has now increased across the board.  We can now measure players more accurately by season. 
+The new value - amended net value - is now shown in red vs the original value in orange.  It's easy to see how the net value has now increased across the board.  We can now measure players more accurately by season. 
 
 Interestingly, one additional takeaway that I had from this data is how imperative the contract/extension is following the rookie contract towards getting the best possible net value per season.  Which, considering the rate at which rookies stay with their drafting teams, makes places an even greater premium on drafting.  And down the rabbit hole we go... thanks for reading. 
