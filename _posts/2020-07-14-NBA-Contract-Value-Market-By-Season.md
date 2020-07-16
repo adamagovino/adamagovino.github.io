@@ -54,7 +54,7 @@ Remember that [net value](https://adamagovino.github.io/Net-Value/) is based upo
 
 However, looking at these season-based quartiles, it may not be accurate to include the rookie-scale players in this mean, as these are fixed contracts that are pre-determined.  Let's look at what these numbers come out to if we exclude rookies:
 
-2018-19: $3,626,033.342042756
+2018-19: $3,626,033.342042756<br>
 2017-18: $3,366,121.8944471045
 2016-17: $2,908,138.2932804488
 2015-16: $2,246,251.8696787367
