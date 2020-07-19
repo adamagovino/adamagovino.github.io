@@ -1,9 +1,8 @@
 ---
 published: true
 ---
-![]({{site.baseurl}}/https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1pPDwi6zv_R26-FSx3OQFNishFvyl3KGcug&usqp=CAU)
+![ballmoney.jpeg]({{site.baseurl}}/_posts/ballmoney.jpeg)
 
-![]({{site.baseurl}}/https://www.google.com/imgres?imgurl=https%3A%2F%2Ffadeawayworld.net%2Fwp-content%2Fuploads%2F2019%2F11%2FTop-10-Cheapest-NBA-Contracts-For-The-2019-20-NBA-Season.jpg&imgrefurl=https%3A%2F%2Ffadeawayworld.net%2F2019%2F11%2F13%2Ftop-10-cheapest-nba-contracts-for-the-2019-20-season%2F&tbnid=URaj9antCiRQKM&vet=12ahUKEwjF8NTVu8_qAhWCGlMKHUNcCDQQMygqegUIARCbAg..i&docid=pOc0ErWPw9_npM&w=1024&h=576&q=nba%20contracts&ved=2ahUKEwjF8NTVu8_qAhWCGlMKHUNcCDQQMygqegUIARCbAg)
 
 
 
@@ -85,4 +84,4 @@ Just as you probably would have guessed, win shares become more expensive once y
 
 The new value - amended net value - is now shown in red vs the original value in orange.  It's easy to see how the net value has now increased across the board.  We can now measure players more accurately by season. 
 
-Interestingly, one additional takeaway that I had from this data is how imperative the contract/extension is following the rookie contract towards getting the best possible net value per season.  Which, considering the rate at which rookies stay with their drafting teams, makes places an even greater premium on drafting - we'll look at this soon.  And down the rabbit hole we go... thanks for reading! 
+Interestingly, one additional takeaway that I had from this data is how imperative the contract/extension is following the rookie contract towards getting the best possible net value per season.  Which, considering the rate at which rookies stay with their drafting teams, places an even greater premium on drafting - we'll look at this soon.  And down the rabbit hole we go... thanks for reading! 
