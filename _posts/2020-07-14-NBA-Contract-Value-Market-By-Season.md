@@ -6,6 +6,7 @@ published: true
 
 
 
+
 I wanted to take a peak at contracts moving forward through seasons as NBA players transition from rookie to seasoned vets.  
 
 Here is my interactive viz looking at [win share-based net value](https://adamagovino.github.io/Net-Value/) based on season number:
@@ -74,4 +75,4 @@ Just as you probably would have guessed, win shares become more expensive once y
 
 The new value - amended net value - is now shown in red vs the original value in orange.  It's easy to see how the net value has now increased across the board.  We can now measure players more accurately by season. 
 
-Interestingly, one additional takeaway that I had from this data is how imperative the contract/extension is following the rookie contract towards getting the best possible net value per season.  Which, considering the rate at which rookies stay with their drafting teams, places an even greater premium on drafting - we'll look at this soon.  And down the rabbit hole we go... thanks for reading! 
+Interestingly, one additional takeaway that I had from this data is how imperative the contract/extension is following the rookie contract towards getting the best possible net value per season.  Which, considering the rate at which rookies stay with their drafting teams, places an even greater premium on drafting - we'll look at this soon.  And down the rabbit hole we go... thanks for reading!
