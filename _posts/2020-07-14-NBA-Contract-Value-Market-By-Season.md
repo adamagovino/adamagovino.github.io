@@ -71,7 +71,10 @@ Just as you probably would have guessed, win shares become more expensive once y
   <param name='display_overlay' value='yes' />
   <param name='display_count' value='yes' />
   <param name='language' value='en' />
-  </object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1595164893706');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  </object></div>                
+  <script type='text/javascript'>                    var divElement = document.getElementById('viz1595164893706');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  
+  ..
 
 The new value - amended net value - is now shown in red vs the original value in orange.  It's easy to see how the net value has now increased across the board.  We can now measure players more accurately by season. 
 
