@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Which GMs have been the most efficient over the past 8 seasons? 
 
