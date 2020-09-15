@@ -9,7 +9,7 @@ published: true
 
 ### Hello, world!  I'm Adam,
 
-a pharmacist currently transforming into a data scientist.  I'm interested in using my healthcare background and medical knowledge and combining it with proficiencies in Python and tableau in order to come up with some insightful, intuitive, and hopefully useful thoughts in the world of data. 
+a pharmacist currently transforming into a data scientist.  I'm interested in using my healthcare background and medical knowledge and combining it with proficiencies in data science in order to come up with some insightful, intuitive, and hopefully useful thoughts in the world of data. 
 
 I hope to be presenting projects that:
 
