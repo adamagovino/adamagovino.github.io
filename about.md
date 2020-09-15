@@ -11,11 +11,11 @@ published: true
 
 a pharmacist currently transforming into a data scientist.  I'm interested in using my healthcare background and medical knowledge and combining it with proficiencies in Python and tableau in order to come up with some insightful, intuitive, and hopefully useful thoughts in the world of data. 
 
-While here, I'll be presenting projects that:
+I hope to be presenting projects that:
 
 1) Are ****original**** ideas with unique takes on interesting data;
 
-2) Will show off data science skills, like:
+2) Will show off data science skills, including but not limited to:
 	- Data gathering & cleaning
     - Machine learning & predictive analysis
     - Web scraping
