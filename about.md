@@ -16,15 +16,12 @@ I hope to be presenting projects that:
 1) Are ****original**** ideas with unique takes on interesting data;
 
 2) Will show off data science skills, including but not limited to:
-	- Data gathering & cleaning
-    
-    - Machine learning & predictive analysis
-    
-    - Web scraping
-    
-    - Data visualization through Python & Tableau 
-    
-    - Exploratory data along with data-driven conclusions
+
+ - Data gathering & cleaning
+ - Machine learning & predictive analysis   
+ - Web scraping
+ - Data visualization through Python & Tableau 
+ - Exploratory data along with data-driven conclusions
     
 3) Ask ****different, thought engaging**** questions
 
