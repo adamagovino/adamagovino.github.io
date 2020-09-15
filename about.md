@@ -11,7 +11,7 @@ published: true
 
 a pharmacist currently transforming into a data scientist.  I'm interested in using my healthcare background and medical knowledge and combining it with proficiencies in Python and tableau in order to come up with some insightful, intuitive, and hopefully useful thoughts in the world of data. 
 
-I'd love to work with you on a project.  Send me an email, and let's connect!
+If you are knee deep some data - I'd love to collaborate with you on a project.  Send me an email, and let's connect!
 
 ### Contact me
 
